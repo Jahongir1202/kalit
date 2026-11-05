@@ -9,7 +9,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const DIR = 'C:\yukbor';
+const DIR = 'C:/yukbor';
 const LOG = path.join(DIR, 'zaxira-agent.log');
 const TOKEN = fs.readFileSync(path.join(DIR, 'zaxira.token'), 'utf8').trim();
 
